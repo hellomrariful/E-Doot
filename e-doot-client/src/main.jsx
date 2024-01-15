@@ -11,6 +11,7 @@ import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register';
 import AuthProvider from './Providers/AuthProvider';
+import Chat from './Pages/Chat/Chat';
 
 const router = createBrowserRouter([
   {
@@ -27,8 +28,12 @@ const router = createBrowserRouter([
         element: <Login></Login>
       },
       {
-        path: "/",
+        path: "/register",
         element: <Register></Register>
+      },
+      {
+        path: "/chat",
+        element: <Chat></Chat>
       }
     ]
   },

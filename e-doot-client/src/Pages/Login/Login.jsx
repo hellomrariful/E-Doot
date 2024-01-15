@@ -41,7 +41,7 @@ const Login = () => {
         displayErrorToast();
 
         setTimeout(() => {
-          navigate(location?.state ? location.state : "/dashboard");
+          navigate(location?.state ? location.state : "/chat");
         }, 1000);
       })
       .catch((err) => {
@@ -73,7 +73,7 @@ const Login = () => {
         displayErrorToast();
 
         setTimeout(() => {
-          navigate(location?.state ? location.state : "/dashboard");
+          navigate(location?.state ? location.state : "/chat");
         }, 1000);
       })
       .catch((error) => {
@@ -106,7 +106,7 @@ const Login = () => {
         displayErrorToast();
 
         setTimeout(() => {
-          navigate(location?.state ? location.state : "/dashboard");
+          navigate(location?.state ? location.state : "/chat");
         }, 1000);
       })
       .catch((error) => {
